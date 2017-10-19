@@ -5,6 +5,7 @@ const links = {
         "jira": "https://moneylion.atlassian.net",
         "confluence": "https://moneylion.atlassian.net/wiki",
         "stash": "https://stash.moneylion.com",
+        "invision": "https://moneylion.invisionapp.com",
         "bugsnag": "https://bugsnag.com",
         "fabric": "https://fabric.io",
         "github": "https://github.com",
@@ -52,7 +53,7 @@ function init() {
             "use strict";
             const link = document.createElement('a');
             link.setAttribute('href', links[sectionName][linkName]);
-            link.setAttribute('target', '_blank');
+            // link.setAttribute('target', '_blank');
             link.innerHTML = linkName;
             linkList.appendChild(link);
         });
