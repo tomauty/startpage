@@ -4,18 +4,24 @@ const links = {
     "work": {
         "jira": "https://moneylion.atlassian.net",
         "confluence": "https://moneylion.atlassian.net/wiki",
+        "stash": "https://stash.moneylion.com",
         "bugsnag": "https://bugsnag.com",
         "fabric": "https://fabric.io",
         "github": "https://github.com",
-        "hacker news": "https://news.ycombinator.com",
+        "itunes connect": "https://itunesconnect.apple.com",
     },
     "$": {
         "google finance": "https://finance.google.com",
         "schwab": "https://schwab.com",
     },
-    "talk": {
+    "news": {
+        "tricycle": "https://tricycle.org",
+        "hacker news": "https://news.ycombinator.com",
+    },
+    "friends": {
         "facebook": "https://facebook.com",
         "twitter": "https://twitter.com",
+        "hipinion": "https://forums.hipinion.com",
     },
 };
 
